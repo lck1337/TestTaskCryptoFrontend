@@ -29,15 +29,11 @@ export default function Home() {
       <div className='container'>
       <div className='mt-4'>
         <div className='rounded bg-white mx-auto p-3 h-50'></div>
-      </div>
       <News/>
       </div>
       <Sliders service={service}/>
-      <div className='tariffTDNull'></div>
-      <div className='tariffTDNull'></div>
-      <div className='tariffTDNull'></div>
         <Cards service={service}/>
-        <ModalNews/>
+      </div>
     </>
   )
 }

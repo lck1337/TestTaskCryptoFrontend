@@ -5,12 +5,10 @@ import Card from './card'
 export default ({service}) => {
     return (
       <>
-    <div className='container'>
-  <div class="row justify-content-center rowPaddingNull ">
+  <div class="row justify-content-between">
     {service.map((x,id) => {
        return <Card data={x} id={id} />
     })}
-  </div>
   </div>
       </>
     )

@@ -33,7 +33,7 @@ export default () => {
   if(!isNewsShow) return (
     <>
     {isSmallScreen ? (
-      <news className="container px-4 mt-4">
+      <news className="px-4 mt-4">
       <div className="rounded bg-white">
         <div className="" >
           <div className='p-2 h-100 justify-content-between btn-toolbar'>
@@ -65,7 +65,7 @@ export default () => {
       </div>
       </news>
     ) : (
-      <news className="container px-4 mt-4">
+      <news className="px-4 mt-4">
       <div className="rounded bg-white">
         <div className="" >
         <div className='p-2 h-100 justify-content-between btn-toolbar'>
@@ -102,7 +102,7 @@ export default () => {
     return (
       <>
       {isSmallScreen ? (
-        <news className="container px-4 mt-4">
+        <news className="px-4 mt-4">
         <div className="rounded bg-white">
           <div class="" style={{"padding-right": "unset !important"}}>
             <Image
@@ -162,8 +162,8 @@ It operates as a Layer 2 network over Ethereum. Starknet is a decentralized Vali
         </news>
       ) : (
         <news className="container-fluid px-4 mt-4">
-        <div className="row rounded bg-white news-size">
-          <div className="col-6" >
+        <div className="d-flex justify-content-between rounded bg-white">
+          <div>
             <div className='p-2 h-100 parent-block'>
             <div className='textTime pt-3'>Today 15:24</div>
             <div className='titleTime'>AirdropHunter’s NEWS</div>
@@ -188,7 +188,7 @@ It operates as a Layer 2 network over Ethereum. Starknet is a decentralized Vali
             <ModalNews show={showModal} handleClose={handleCloseModal} />
             </div>
             </div>
-            <div className='d-flex'>
+            <div className='d-flex' style={{paddingRight: "14px"}}>
             <div class="align-self-center">
                     <div className='counter'>1 / 3</div>
             </div>
@@ -209,7 +209,7 @@ It operates as a Layer 2 network over Ethereum. Starknet is a decentralized Vali
             </div>
 
           </div>
-          <div class="col-6">
+          <div>
             <Image
             src='/news.png'
             width={660}

@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default ({data, id}) => {
     console.log(data);
     return (
-<div class="col-xl-3 col-xxl-4 cardWidth">
-    <div class="card cardWidth">
+<div class="col-xl-3 col-xxl-4 pt-3">
+    <div class="card">
     <div id={`Projects${id}`} class="card-body ">
         <div className="d-flex">
                     <Image

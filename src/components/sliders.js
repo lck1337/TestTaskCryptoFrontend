@@ -46,7 +46,6 @@ export default ({service}) => {
     }
 
     return(
-        <div className="container">
         <div className="rounded bg-white slider">
         <div className="d-flex align-items-center w-100 p-2">
         <div className='arrow2 d-flex align-items-center'>
@@ -86,7 +85,6 @@ export default ({service}) => {
                       />
             </div>
             </div>
-        </div>
         </div>
     );
 };
