@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
     "next": "latest",
     "popper.js": "^1.16.1",

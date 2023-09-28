@@ -3,7 +3,7 @@ import Navbar from '@/components/navbar';
 import News from '@/components/news';
 import Cards from '@/components/cards';
 import Sliders from '@/components/sliders';
-import ModalNews from '@/components/modalNews';
+
 const service = [
   {"Title": "StarkNet", "Description":"Starknet is a decentralized Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.", "serviceLogo": "/servicelogo.png"},
   {"Title": "StarkNet", "Description":"Starknet is a decentralized Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.", "serviceLogo": "/servicelogo.png"},
