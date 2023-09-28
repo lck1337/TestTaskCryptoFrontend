@@ -1,0 +1,19 @@
+{
+  "name": "TestTaskCrypto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "next": "latest",
+    "popper.js": "^1.16.1",
+    "react": "latest",
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "latest"
+  }
+}

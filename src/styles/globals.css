@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  max-width: 100vw;
+  background-color: #EAEBF6 !important;
+}
+
+
+.btn-1 {
+  background-color: #23ACDE !important;
+  color: white !important;
+}
+
+.btn-2 {
+  color: #23ACDE !important;
+}
+
+.btn-3 {
+  color: #23ACDE !important;
+  border-radius: 10px !important;
+  border: 1px solid #23ACDE !important;
+  background: #E0E3F5 !important;
+  width: 100%;
+  height: 55px;
+}
+.noneright {
+  padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.block {
+  white-space: nowrap;
+}
+
+.image-container { 
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image-container2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.textTime {
+  color: #999999;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 20px;
+  word-wrap: break-word
+}
+
+.titleTime {
+  max-width: 60%;
+  color: black;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 33.75px;
+  word-wrap: break-word
+}
+
+.titleLittle {
+  color: black;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 33.75px;
+  word-wrap: nowrap
+}
+
+.ellipsis-text {
+  text-align: center;
+  max-width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-text2 {
+  text-align: center;
+  max-width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textDescription {
+  color: #999999;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+line-height: 21.60px;
+word-wrap: break-word
+}
+
+.parent-block {
+  position: relative;
+}
+
+.bottom-block {
+  width: 100%;
+  position: absolute;
+   bottom: 0;
+}
+
+.top-content2 {
+  margin-bottom: 10px;
+}
+
+.top-content {
+  margin-bottom: 20px;
+}
+
+.top-content3 {
+  margin-bottom: 60px;
+}
+
+.buttonLite {
+  margin-right: 15px;
+}
+.paddingRight {
+  padding-right: 15px;
+}
+
+.arrow {
+  width: 40px; height: 40px; background: #F3F3F3; border-radius: 9999px;
+}
+
+.arrow2 {
+  width: 44px; height: 44px; background: #F3F3F3; border-radius: 9999px;
+}
+
+.left-13px {
+  padding-left: 13px;
+}
+
+.newsButton {
+  color: #3D8AFF !important; 
+}
+
+.counter {
+
+}
+
+.arrow-next {
+  width: 40px; height: 40px; background: #F3F3F3; border-radius: 9999px;
+  transform: rotate(45deg);
+}
+
+.arrow-down {
+  width: 40px; height: 40px; background: #F3F3F3; border-radius: 9999px;
+  transform: rotate(90deg);
+}
+
+.colorBlack {
+  color: black;
+font-size: 14px;
+}
+
+th, td {
+  font-weight: normal;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.cardWidth {
+  width: 406px !important;
+  margin-right: 15px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-bottom: 10px;
+}
+
+
+.rowPaddingNull {
+  margin-left: 0px !important;
+}
+
+.tariffTD{
+  --bs-table-bg: #F8F9FC ;
+}
+.tariffTDNull{
+  height: 10px;
+}
+
+.tariffTD>td {
+  color: #050505;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+line-height: 21.60px;
+word-wrap: break-word
+}
+
+.TitleTable>th {
+color: #636775 !important;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+}
+
+.news-size {
+width: 1296px !important;
+}
+.bg-buttonHover {
+  width: 58px !important;
+  height: 58px !important;
+  flex-shrink: 0;
+}
+.bg-buttonHover:hover {
+  background-color: #23ACDE !important;
+}
